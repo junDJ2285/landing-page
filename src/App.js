@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+
+import { Button } from 'antd';
 import './App.css';
+import Header from './cpmponents/Header/Header';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <div className="home-container">
+        <div className="home-left ">
+          <div className="left-icons">
+            
+          </div>
+          <div className="left-content">
+          <h3 className='medium-heading'>---The New Era Has Been Started</h3>
+            <h1 className=" mn-headings">I`m Web Developer JUNAID ABBAS</h1>
+            <p className="mn-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nihil, asperiores quam cupiditate eligendi excepturi tempora consequatur aspernatur molestias. Itaque.</p>
+            <div>
+
+              <Button
+                className="mn-btn" style={{ margin: "20px 1px" }}>
+                Start Free Trail
+              </Button>
+            </div>
+
+          </div>
+        </div>
+        <div className="home-right">
+          <img src={require("../src/assets/main-img.png")} alt="" />
+        </div>
+      </div>
+     
+
+
     </div>
   );
 }

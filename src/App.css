@@ -5,7 +5,7 @@
 .home-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 84%;
   margin: auto;
   
@@ -20,7 +20,7 @@ color: #88b904;
   width: 510px;
 }
 .home-right{
-  width: 430px;
+  width: 390px;
 }
 .home-right>img{
   width: 100%;

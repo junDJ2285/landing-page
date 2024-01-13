@@ -15,7 +15,7 @@ function App() {
           </div>
           <div className="left-content">
           <h3 className='medium-heading'>---The New Era Has Been Started</h3>
-            <h1 className=" mn-headings">I`m Web Developer JUNAID ABBAS</h1>
+            <h1 className=" mn-headings">Bright Your Future With Learn New Technology From Experts</h1>
             <p className="mn-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nihil, asperiores quam cupiditate eligendi excepturi tempora consequatur aspernatur molestias. Itaque.</p>
             <div>
 
